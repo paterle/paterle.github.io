@@ -1,4 +1,4 @@
-# 👋 ¡Hola! Soy Paula Terleira
+# 👋 Soy Paula Terleira
 
 🎓 Ingeniera Informática e investigadora en inteligencia artificial aplicada.  
 🎾 Apasionada por la tecnología en el deporte: visión artificial, IA y análisis de rendimiento.  
