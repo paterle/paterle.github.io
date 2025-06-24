@@ -12,7 +12,7 @@
 | Proyecto | Descripción | Tecnologías |
 |---------|-------------|--------------|
 | [🎾 TennisInsight](https://gredos.usal.es/handle/10366/164978) | Sistema de análisis automático del juego en tenis, mediante IA y visión artificial. | Python, OpenCV, Flask, Vue.js |
-| [⚽ MyTrainer](https://gredos.usal.es/handle/10366/151439) | Seguimiento de jugadores y estadísticas de rendimiento en partidos. |  |
+| [⚽ MyTrainer](https://gredos.usal.es/handle/10366/151439) | Seguimiento de jugadores y estadísticas de rendimiento en partidos. |  | JavaScript, MongoDB, Vue.js, 
 
 ---
 
