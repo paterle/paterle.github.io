@@ -1,7 +1,7 @@
 # [👩🏻‍💻 Paula Terleira](https://paterle.github.io/) 
 
 🎓 Ingeniera Informática  
-📍  Actualmente realizando el Doctorado en la Universidad de Salamanca, centrado en IA basada en el uso de Vision-Language Models (VLMs).
+ 📍 Actualmente realizando el Doctorado en la Universidad de Salamanca, centrado en IA basada en el uso de Vision-Language Models (VLMs).
 🎾 Apasionada por la tecnología en el deporte: visión artificial, IA y análisis de rendimiento  
 ⚙️​ Siempre explorando nuevas formas de aplicar la informática a entornos innovadores y multidisciplinares  
 
