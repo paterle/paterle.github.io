@@ -112,7 +112,7 @@
       padding-left: 0.7rem;
       margin-bottom: 1.2rem;
     }
-    .projects {
+    .proyectos {
       display: flex;
       flex-direction: column;
       gap: 2rem;
@@ -164,7 +164,7 @@
       color: var(--accent);
       border: 1px solid var(--secondary);
     }
-    ul.contact-list {
+    ul.contacto-list {
       padding-left: 0;
       margin: 0;
       list-style: none;
@@ -172,12 +172,12 @@
       flex-wrap: wrap;
       gap: 1.3rem;
     }
-    ul.contact-list li {
+    ul.contacto-list li {
       font-size: 1.07rem;
       display: flex;
       align-items: center;
     }
-    ul.contact-list li a {
+    ul.contacto-list li a {
       color: var(--primary);
       font-weight: 500;
       text-decoration: none;
@@ -185,7 +185,7 @@
       transition: color 0.2s;
       border-bottom: 1px dotted var(--secondary);
     }
-    ul.contact-list li a:hover {
+    ul.contacto-list li a:hover {
       color: var(--secondary);
       border-bottom: 1px solid var(--secondary);
     }
@@ -198,7 +198,7 @@
     @media (max-width: 700px) {
       .container { padding: 0 0.5rem; }
       section { padding: 1.2rem 0.5rem; }
-      .projects { grid-template-columns: 1fr; }
+      .proyectos { grid-template-columns: 1fr; }
       .menu { flex-direction: column; gap: 1rem; }
     }
   </style>
@@ -212,10 +212,11 @@
   <p>👩🏻‍💻 Ingeniera informática</p>
   <nav>
     <ul class="menu">
-      <li><a href="#about">Sobre mí</a></li> 
-      <li><a href="#contact">Contacto</a></li>
+      <li><a href="#info">Sobre mí</a></li> 
+      <li><a href="#contacto">Contacto</a></li>
       <li><a href="#formacion">Formación académica</a></li>
-      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#experiencia">Experiencia Profesional</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
       <li><a href="#tecnologias">Tecnologías</a></li>
      
     </ul>
@@ -223,7 +224,7 @@
 </header>
 
 <div class="container">
-  <section id="about">
+  <section id="info">
     <h2>Sobre mí</h2>
     <p>
       Soy ingeniera informática, tengo el grado y máster en Ingeniería informática y actualmente estoy realizando el doctorado, centrado en la investigación y desarrollo de sistemas de inteligencia artificial y Vision-Language Models (VLMs)) en tareas de detección de objetos, combinando visión artificial y procesamiento de lenguaje natural.
@@ -232,9 +233,9 @@
       y <strong>análisis de rendimiento deportivo</strong>.
     </p>
   </section>
-  <section id="contact">
+  <section id="contacto">
     <h2>Contacto</h2>
-    <ul class="contact-list">
+    <ul class="contacto-list">
       <li>📧 <a href="mailto:paulaterleira@gmail.com">paulaterleira@gmail.com</a></li>
       <li><a href="https://www.linkedin.com/in/paula-terleira-fernandez/" target="_blank">
           <i class="fab fa-linkedin" style="color:#0A66C2; margin-right: 6px;"></i> LinkedIn
@@ -260,10 +261,43 @@
     <span style="color: var(--gray);">2018 – 2022</span>
   </p>
 </section>
+
+<section id="experiencia">
+  <h2>Experiencia Profesional</h2>
+
+  <div style="margin-bottom: 1.5rem;">
+    <h3>Ingeniera Informática – Subdelegación de Defensa, Valladolid</h3>
+    <p style="color: var(--gray); margin: 0;">Mayo 2024 – Mayo 2025</p>
+    <ul style="margin-top: 0.5rem;">
+      <li>Desarrollo de aplicaciones Python para automatización de procesos y tratamiento de datos.</li>
+      <li>Gestión de datos en Excel y Access; consultas básicas con VBA.</li>
+      <li>Desarrollo y mantenimiento de software multiplataforma con Flutter y Dart.</li>
+      <li>Estudio y aplicación de soluciones basadas en inteligencia artificial para nuevos proyectos.</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 1.5rem;">
+    <h3>Prácticas – ESALab (Expert Systems and Applications Lab)</h3>
+    <p style="color: var(--gray); margin: 0;">Octubre 2023 – Diciembre 2023</p>
+    <ul style="margin-top: 0.5rem;">
+      <li>Procesamiento de imágenes y vídeos aplicando IA con OpenCV y PyTorch.</li>
+      <li>Desarrollo de aplicación web usando Vue.js, JavaScript, MongoDB y APIs con Flask.</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Prácticas – Viewnext</h3>
+    <p style="color: var(--gray); margin: 0;">Julio 2021 – Septiembre 2021</p>
+    <ul style="margin-top: 0.5rem;">
+      <li>Creación de bots conversacionales para automatización de tareas usando herramientas de IA (IBM Watson).</li>
+    </ul>
+  </div>
+</section>
+
   
-  <section id="projects">
+  <section id="proyectos">
     <h2>Proyectos destacados</h2>
-    <div class="projects">
+    <div class="proyectos">
       <div class="project">
         <h3>🎾 TennisInsight</h3>
         <ul style="padding-left: 1.2rem; margin-bottom: 1rem; color: var(--gray); line-height: 1.7;">
@@ -317,7 +351,7 @@
 
   <div style="margin-bottom: 1.5rem;">
     <h3>🧠 IA & Visión Artificial</h3>
-    <p>PyTorch · OpenCV · scikit-learn · VLMs</p>
+    <p>PyTorch · OpenCV · VLMs</p>
   </div>
 
   <div style="margin-bottom: 1.5rem;">
@@ -336,13 +370,13 @@
   </div>
 
   <div style="margin-bottom: 1.5rem;">
-    <h3>📊 Visualización y análisis deportivo</h3>
-    <p>NumPy · Pandas · heatmap.js · Plotly</p>
+    <h3>📊 Visualización y análisis de datos</h3>
+    <p>NumPy · Pandas · heatmap.js · Plotly · Matplotlib</p>
   </div>
 
   <div>
     <h3>📱 Apps multiplataforma</h3>
-    <p>Flutter · Dart</p>
+    <p>Flutter </p>
   </div>
 </section>
 </div>
